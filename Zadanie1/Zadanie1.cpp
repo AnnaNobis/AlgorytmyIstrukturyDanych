@@ -52,8 +52,3 @@ int main()
 	}
 }
 
-//Fib(5) = Fib(3) + Fib(4);
-//Fib(5) = Fib(1) + Fib(2) + Fib(3) + Fib(2);
-//Fib(5) = 1 + 1 + Fib(1) + Fib(2) + Fib(2);
-//Fib(5) = 1 + 1 + 1 + 1 + 1;
-//Fib(5) = 5;

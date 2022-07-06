@@ -29,19 +29,26 @@ int main()
     std::cout << fib.generate(5)<< std::endl;
     std::cout << fib.generate(20)<< std::endl;
 
-   //PODEJSCIE ITERACYJNE - zaczynamy od 0,1 i tak dalej do góry
+   //PODEJSCIE ITERACYJNE - zaczynamy od 0, 1 i tak dalej do góry
   
    int a = 0;
     int b = 1;
    int sum = 0;
   int n = 20 ;
-   for (int i = 1; i <n ; i++)
+   for (int i = 1; i <n; i++)
    {
      
        sum = a + b;
        a = b;
        b = sum;
-   sum++;
+  
   }
   std::cout << "Wartosc to: " << sum << std::endl;
 }
+
+
+//Fib(5) = Fib(3) + Fib(4);
+//Fib(5) = Fib(1) + Fib(2) + Fib(3) + Fib(2);
+//Fib(5) = 1 + 1 + Fib(1) + Fib(2) + Fib(2);
+//Fib(5) = 1 + 1 + 1 + 1 + 1;
+//Fib(5) = 5;
